@@ -54,3 +54,20 @@ CONFIG += deng_noopenal
 CONFIG += deng_nodirectsound
 ```
 13. In this "doomsday" folder, open the "doomsday.pro".
+14. Use Build > Run qmake.
+15. Use Build > Build Project "doomsday".
+16. Now is when we use the installed Doomsday as a good guide.
+17. Copy your entire Doomsday installation folder into another folder you have safe somewhere.
+  * Ex: Copy "V:\Program Files (x86)\Doomsday" To "V:\dont_move\doom\code\product\release"
+18. With this, we can see exactly how our directory is expected to be structured. Snowberry is in the right place, the EXEs and DLLs and PK3s and all that non-sense is snuggly tucked in.
+19. What you will do from here on out is copy your built results and paste them over the existing versions in your safe copy of your installation.
+16. You will want to copy the following built results to use your compiled sources:
+  * "build-doomsday-Desktop-Release\client\release\Doomsday.exe"
+  * "build-doomsday-Desktop-Release\libdeng1\release\deng1.dll"
+  * "build-doomsday-Desktop-Release\libdeng2\release\deng2.dll"
+  * "build-doomsday-Desktop-Release\libgui\release\deng_gui.dll"
+  * "build-doomsday-Desktop-Release\libshell\release\deng_shell.dll"
+  * "build-doomsday-Desktop-Release\plugins\doom\release\doom.dll"
+  * "build-doomsday-Desktop-Release\plugins\hexen\release\hexen.dll"
+  * "build-doomsday-Desktop-Release\plugins\heretic\release\heretic.dll"
+17. 
