@@ -70,4 +70,12 @@ CONFIG += deng_nodirectsound
   * "build-doomsday-Desktop-Release\plugins\doom\release\doom.dll"
   * "build-doomsday-Desktop-Release\plugins\hexen\release\hexen.dll"
   * "build-doomsday-Desktop-Release\plugins\heretic\release\heretic.dll"
-17. 
+
+===
+Running Doomsday
+===
+1. Open "V:\dont_move\doom\code\product\release\snowberry\snowberry.exe".
+  * This is your Doomsday engine front end. You'll use it to run Doom.
+2. Set "GameComponent" to "libdoom"
+3. Set "Game Data File" to your WAD for Doom.
+4. Press Play.
