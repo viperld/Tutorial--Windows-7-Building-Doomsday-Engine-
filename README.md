@@ -79,3 +79,12 @@ Running Doomsday
 2. Set "GameComponent" to "libdoom"
 3. Set "Game Data File" to your WAD for Doom.
 4. Press Play.
+
+===
+Other
+===
+  If you have any major issues, I really just suggest you slowly make your way through the tutorial to make sure you didn't miss anything.
+  
+  You can also register on the project forums and ask for assistance, they are nice and helpful people.
+  
+  And finally, don't give up! Building source isn't always straightforward. 
