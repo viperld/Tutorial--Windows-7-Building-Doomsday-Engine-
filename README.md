@@ -7,7 +7,6 @@ Build/Run Doomsday Engine For Windows 7
 * source doomsday engine stable 1.13 [LINK](https://github.com/skyjake/Doomsday-Engine/tree/stable-1.13)
 * binaries doomsday engine [LINK](http://dengine.net/windows)
 * WADs of Doom, Doom2, Hexen, Heretic (You need atleast one. You can buy the game's to get the WADs).
-* 
 
 ##Requirements Explained
 
@@ -23,3 +22,10 @@ Build/Run Doomsday Engine For Windows 7
 ##Build Steps
 
 1. Know that there are official instructions on the project wiki [LINK](http://dengine.net/dew/index.php?title=Compilation)
+2. Install QT.
+3. Install Doomsday Engine.
+4. Grab the source and store it somewhere good. Ex: "D:/dont_move/my_doom/code".
+5. Enter the source code you stored and go to (your path may be a bit different): "Doomsday-Engine-stable-1.13\Doomsday-Engine-stable-1.13\doomsday"
+6. Copy "config_user-example.pri" and paste it as "config_user.pri"
+6. In this "doomsday" folder, open the "doomsday.pro".
+7. 
